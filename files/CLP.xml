@@ -18,7 +18,7 @@
  </AtomTypes>
 
  <HarmonicBondForce>
-  <!-- k has units of epsilon/sigma^2 -->
+  <!-- k has units of epsilon/sigma^2 and nm to angstrom conversion in Parmed has been accounted for -->
   <Bond class1="BB" class2="BB" length="0.5" k="1000"/>
   <Bond class1="BB" class2="HB" length="0.37" k="1000"/>
  </HarmonicBondForce>
